@@ -15,6 +15,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { MainMenuComponent } from './extras/html_components/main-menu/main-menu.component';
 import { StaticPageComponent } from './static-page/static-page.component';
 import { ExcerptPipe } from './extras/pipes/excerpt.pipe';
+import { PostsPaginationComponent } from './posts/posts-pagination/posts-pagination.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ExcerptPipe } from './extras/pipes/excerpt.pipe';
     MainMenuComponent,
     StaticPageComponent,
     ExcerptPipe,
+    PostsPaginationComponent,
   ],
   imports: [
     BrowserModule,

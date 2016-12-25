@@ -14,7 +14,7 @@ import { PostsService } from '../posts.service';
 export class PostListComponent implements OnInit {
 
 load_button: boolean = true;
-page_counter: any = 2;
+page_counter: number = 2;
 posts: Post[];
 more_posts: Post[] = [];
 
